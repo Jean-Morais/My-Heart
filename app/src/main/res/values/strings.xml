@@ -1,0 +1,227 @@
+<resources>
+    <string name="app_name">My Heart</string>
+
+    <string name="nav_home">Início</string>
+    <string name="nav_instructions">Instruções</string>
+    <string name="nav_profile">Perfil</string>
+
+    <!-- Home -->
+    <string name="banner_disconnected_title">Conecte um dispositivo</string>
+    <string name="banner_disconnected_body">Nenhum medidor conectado. Conecte seu dispositivo para começar.</string>
+    <string name="banner_connected_title">Dispositivo conectado</string>
+    <string name="banner_connecting_title">Conectando…</string>
+    <string name="banner_connecting_body">Procurando o dispositivo.</string>
+    <string name="banner_error_title">Não foi possível conectar</string>
+    <string name="banner_error_body">Toque para tentar de novo.</string>
+    <string name="disconnect">Desconectar</string>
+
+    <string name="last_reading">Última leitura</string>
+    <string name="no_reading">Nenhuma leitura</string>
+    <string name="heart_rate_label">Batimentos cardíacos</string>
+    <string name="oxygen_label">Oxigenação</string>
+    <string name="unit_bpm">bpm</string>
+    <string name="unit_spo2" formatted="false">% SpO₂</string>
+
+    <string name="take_reading_now">Realizar leitura agora</string>
+    <string name="connect_to_enable_reading">Conecte um dispositivo para habilitar a leitura.</string>
+    <string name="reading_ready">Dispositivo pronto para realizar a leitura.</string>
+
+    <string name="analysis_title">Análise de medições</string>
+    <string name="analysis_description">Criticidade\nVerde: normal · Amarelo: atenção · Vermelho: crítico\nLimiares ilustrativos, sem classificação clínica.</string>
+    <string name="analysis_description_sample">Exemplo ilustrativo • Criticidade\nVerde: normal · Amarelo: atenção · Vermelho: crítico\nCores demonstrativas, sem classificação clínica.</string>
+    <string name="tab_bpm">BPM</string>
+    <string name="tab_oxygen">Oxigenação</string>
+    <string name="chart_title_today">Medições de hoje</string>
+    <string name="chart_title_yesterday">Medições de ontem</string>
+    <string name="chart_title_date">Medições de %1$s</string>
+    <string name="chart_empty_title">Nenhuma leitura registrada</string>
+    <string name="chart_empty_body">Realize uma leitura para ver o gráfico e as estatísticas.</string>
+    <string name="chart_scroll_hint">Deslize para os lados para ver outros horários.</string>
+    <string name="chart_bar_description">%1$s: %2$s, nível %3$s</string>
+    <string name="unit_percent" formatted="false">%</string>
+    <string name="value_bpm">%1$d bpm</string>
+    <string name="value_percent">%1$d%%</string>
+    <string name="stat_average">Média</string>
+    <string name="stat_max">Máxima</string>
+    <string name="stat_min">Mínima</string>
+    <string name="view_history">Ver histórico de medições</string>
+
+    <!-- Histórico -->
+    <string name="history_title">Histórico de medições</string>
+    <string name="history_back_subtitle">Voltar ao Início</string>
+    <string name="history_period">Período</string>
+    <string name="period_7_days">7 dias</string>
+    <string name="period_30_days">30 dias</string>
+    <string name="period_all">Todo o período</string>
+    <string name="heart_rate_short_label">Batimentos</string>
+    <string name="history_sample_title">Dados fictícios • Exemplos ilustrativos</string>
+    <string name="history_sample_body">Criticidade demonstrativa, sem classificação clínica ou definição de limites.</string>
+    <string name="history_legend_title">Criticidade</string>
+    <string name="history_legend_body">Os níveis seguem limiares ilustrativos, sem classificação clínica.</string>
+    <plurals name="history_count">
+        <item quantity="one">%1$d medição</item>
+        <item quantity="other">%1$d medições</item>
+    </plurals>
+    <string name="history_sort">Mais recentes</string>
+    <string name="history_end">Todas as medições deste período</string>
+    <string name="history_disclaimer_sample">Esta demonstração não oferece diagnóstico nem substitui uma avaliação profissional.</string>
+    <string name="history_empty_title">Nenhuma medição neste período</string>
+    <string name="history_empty_body">Realize uma leitura na aba Início para ela aparecer aqui.</string>
+    <string name="history_error_title">Não foi possível carregar o histórico</string>
+    <string name="history_error_body">Feche e abra o app e tente de novo.</string>
+
+    <!-- Leitura -->
+    <string name="bpm">BPM</string>
+    <string name="spo2">SpO₂</string>
+    <string name="back">Voltar</string>
+    <string name="status_normal">Normal</string>
+    <string name="status_attention">Atenção</string>
+    <string name="status_critical">Crítico</string>
+
+    <string name="reading_title">Leitura atual</string>
+    <string name="reading_status_in_progress">Em andamento</string>
+    <string name="reading_status_done">Concluída · %1$s</string>
+    <string name="reading_moment_today">Hoje, %1$s</string>
+    <string name="reading_moment_yesterday">Ontem, %1$s</string>
+    <string name="reading_moment_date">%1$s, %2$s</string>
+    <string name="reading_device_connected">Medidor conectado</string>
+    <string name="reading_now_title">Lendo seus sinais…</string>
+    <string name="reading_now_description">Mantenha o dedo no sensor e a mão imóvel até a leitura terminar. Os primeiros segundos servem para o sensor estabilizar.</string>
+    <string name="reading_capturing">Capturando os sinais</string>
+    <string name="reading_percent">%1$d%%</string>
+    <string name="placeholder_dash">—</string>
+    <string name="cancel_reading">Cancelar leitura</string>
+
+    <string name="reading_done">Leitura concluída</string>
+    <string name="sample_data_tag">Exemplo ilustrativo</string>
+    <string name="analysis_result_title">Análise do resultado</string>
+    <string name="result_normal_message">Os batimentos e a oxigenação estão em faixas habituais de repouso.</string>
+    <string name="result_attention_message">Algum valor está fora da faixa habitual de repouso. Descanse um pouco e repita a leitura com o sensor bem posicionado.</string>
+    <string name="result_critical_message">Os valores estão bem fora da faixa habitual. Repita a leitura; se persistirem ou você sentir sintomas, procure atendimento médico.</string>
+    <string name="reading_disclaimer_sample">Dados ilustrativos. Esta demonstração não oferece diagnóstico nem substitui avaliação profissional.</string>
+    <string name="reading_disclaimer">Esta leitura não oferece diagnóstico nem substitui avaliação profissional.</string>
+    <string name="new_reading">Realizar nova leitura</string>
+
+    <!-- Instruções -->
+    <string name="instructions_title">Instruções</string>
+    <string name="instructions_subtitle">Conecte seu medidor e acompanhe suas leituras com este passo a passo.</string>
+
+    <string name="section_connect">Conecte seu medidor</string>
+    <string name="section_connect_range">Passos 1–3</string>
+    <string name="section_reading">Faça sua leitura</string>
+    <string name="section_reading_range">Passos 4–6</string>
+
+    <string name="step1_title">Prepare o medidor</string>
+    <string name="step1_body">Verifique a carga e ligue o medidor conforme o manual. Para posicionar o sensor, siga as orientações do fabricante.</string>
+    <string name="step2_title">Ative o Bluetooth</string>
+    <string name="step2_body">Ative o Bluetooth do celular. Quando o app pedir, autorize a permissão de “Dispositivos próximos” (Android 12 ou mais recente) ou de “Localização” (versões mais antigas, que também pedem a localização do celular ligada).</string>
+    <string name="step3_title">Conecte ao dispositivo</string>
+    <string name="step3_body">Mantenha o medidor ligado e perto do celular. Não é preciso pareá-lo nas configurações do Bluetooth. Na aba Início, toque no aviso “Conecte um dispositivo”: o app procura o medidor sozinho e conecta quando o encontra. Nas próximas vezes ele tenta primeiro o último medidor usado, o que é mais rápido.</string>
+    <string name="step4_title">Inicie a leitura</string>
+    <string name="step4_body">Na aba Início, confirme que o medidor está conectado. Com o sensor posicionado, toque em “Realizar leitura agora”.</string>
+    <string name="step5_title">Aguarde a medição</string>
+    <string name="step5_body">Mantenha o sensor na posição indicada pelo fabricante e evite movimentos. Deixe o medidor próximo do celular e aguarde a conclusão no app.</string>
+    <string name="step6_title">Consulte seus resultados</string>
+    <string name="step6_body">Ao concluir, confira os batimentos cardíacos e a oxigenação. Na aba Início, use “Ver histórico de medições” para consultar as leituras anteriores. Se a leitura sair do normal e houver um familiar cadastrado e autorizado, o app oferece deixar um aviso pronto para ele; você confere e confirma o envio.</string>
+
+    <string name="help_title">O dispositivo não aparece?</string>
+    <string name="help_body">Confira se o medidor está ligado e próximo, se o Bluetooth está ativo (e a localização, no Android 11 ou anterior) e se as permissões do app foram liberadas. Depois toque no aviso de conexão para procurar de novo. Se persistir, consulte o manual do fabricante.</string>
+    <string name="instructions_disclaimer">As leituras não oferecem diagnóstico nem substituem uma avaliação profissional.</string>
+
+    <!-- Perfil -->
+    <string name="profile_title">Perfil</string>
+    <string name="profile_subtitle">Informe seus dados e escolha um familiar para receber avisos sobre suas leituras.</string>
+
+    <string name="account_title">Seus dados</string>
+    <string name="account_name_label">Nome completo</string>
+    <string name="account_name_hint">Digite seu nome</string>
+    <string name="account_email_label">E-mail</string>
+    <string name="account_email_hint">Digite seu e-mail</string>
+    <string name="save_account">Salvar perfil</string>
+    <string name="account_saved">Perfil salvo com sucesso.</string>
+
+    <string name="relative_title">Contato do familiar</string>
+    <string name="relative_description">Escolha quem avisar se uma leitura estiver fora dos parâmetros. O app deixa a mensagem pronta e você confirma o envio.</string>
+    <string name="relative_name_label">Nome do familiar</string>
+    <string name="relative_name_hint">Digite o nome do familiar</string>
+    <string name="channel_label">Como deseja notificar?</string>
+    <string name="channel_email">E-mail</string>
+    <string name="channel_phone">Telefone</string>
+    <string name="relative_email_label">E-mail do familiar</string>
+    <string name="relative_email_hint">Digite o e-mail do familiar</string>
+    <string name="relative_phone_label">Telefone do familiar</string>
+    <string name="relative_phone_hint">Digite o telefone com DDD</string>
+    <string name="consent_text">Autorizo o envio de avisos sobre leituras fora dos parâmetros para este familiar.</string>
+    <string name="save_contact">Salvar contato</string>
+    <string name="contact_saved">Contato salvo com sucesso.</string>
+    <string name="profile_disclaimer">Avisos de leituras fora dos parâmetros não substituem atendimento médico.</string>
+
+    <string name="error_required">Preencha este campo.</string>
+    <string name="error_invalid_email">Informe um e-mail válido.</string>
+    <string name="error_invalid_phone">Informe um telefone válido, com DDD.</string>
+    <string name="error_consent">Autorize o envio de avisos para salvar o contato.</string>
+    <!-- Erro na leitura -->
+    <string name="reading_status_error">Leitura interrompida</string>
+    <string name="reading_error_title">Não foi possível concluir a leitura</string>
+    <string name="reading_error_body">Verifique se o sensor está ligado, perto do aparelho e bem posicionado, e tente de novo. Nada foi salvo no histórico.</string>
+    <string name="reading_error_retry">Tentar de novo</string>
+    <string name="reading_error_back">Voltar ao início</string>
+
+    <!-- Avisos de falha -->
+    <string name="load_error_title">Não foi possível carregar suas leituras</string>
+    <string name="load_error_body">As leituras salvas não puderam ser lidas do aparelho. Tente de novo; se continuar, feche e abra o app.</string>
+    <string name="load_error_retry">Tentar de novo</string>
+    <string name="save_error_title">Leitura não salva</string>
+    <string name="save_error_body">O resultado está na tela, mas não foi gravado no histórico. Salve de novo antes de fazer outra leitura.</string>
+    <string name="save_error_retry">Salvar de novo</string>
+    <string name="profile_load_error_title">Não foi possível carregar seus dados salvos</string>
+    <string name="profile_load_error_body">Os campos podem aparecer vazios. Salvar agora substitui o que estava gravado; para tentar carregar de novo, feche e abra o app.</string>
+    <string name="profile_save_error_title">Não foi possível salvar</string>
+    <string name="profile_save_error_body">Seus dados não foram gravados no aparelho. Tente de novo.</string>
+
+    <!-- Aviso de leitura fora do normal (Etapa 5) -->
+    <string name="notifications_switch_title">Avisar em caso de anormalidade</string>
+    <string name="notifications_switch_description">Com o aviso ligado, o app notifica este celular quando uma leitura ficar em Atenção ou Crítico. Vale depois de salvar seus dados.</string>
+    <string name="notifications_blocked_title">Notificações bloqueadas no celular</string>
+    <string name="notifications_blocked_body">Sem essa permissão, o app não consegue avisar você. Libere as notificações nas configurações do aparelho.</string>
+    <string name="notifications_blocked_action">Abrir configurações</string>
+    <string name="alert_channel_name">Leituras fora do normal</string>
+    <string name="alert_channel_description">Avisos quando uma leitura de batimentos ou oxigenação ficar em Atenção ou Crítico.</string>
+    <string name="alert_title_attention">Leitura em Atenção</string>
+    <string name="alert_title_critical">Leitura em nível Crítico</string>
+    <string name="alert_text">%1$d bpm • oxigenação %2$d%%</string>
+    <string name="alert_illustrative">Exemplo ilustrativo</string>
+    <string name="alert_public_text">Há uma nova leitura que merece atenção.</string>
+
+    <!-- Bluetooth real (Etapa 6) -->
+    <string name="ble_default_device_name">Medidor Bluetooth</string>
+    <string name="ble_permission_title">Permissão de Bluetooth necessária</string>
+    <string name="ble_permission_body">Sem ela o app não consegue procurar o medidor. Libere “Dispositivos próximos” (ou “Localização”, no Android 11 ou anterior) nas permissões do app.</string>
+    <string name="ble_permission_action">Abrir configurações</string>
+    <string name="ble_error_permission">Libere a permissão de Bluetooth para procurar o medidor. Toque para tentar de novo.</string>
+    <string name="ble_error_unavailable">Este aparelho não tem o Bluetooth de baixa energia usado pelo medidor.</string>
+    <string name="ble_error_disabled">O Bluetooth do celular está desligado. Ative-o e toque para tentar de novo.</string>
+    <string name="ble_error_not_found">Nenhum medidor compatível foi encontrado. Ligue o medidor, deixe-o perto do celular e toque para tentar de novo.</string>
+    <string name="ble_error_incompatible">Este dispositivo não mede oxigenação e não é compatível com o app. Toque para procurar de novo.</string>
+    <string name="ble_error_connection_failed">Não foi possível se conectar ao medidor. Aproxime-o do celular e toque para tentar de novo.</string>
+    <string name="ble_error_connection_lost">A conexão com o medidor foi perdida. Toque para conectar de novo.</string>
+    <string name="reading_error_no_signal">O medidor não enviou uma leitura estável. Confirme que o dedo está bem posicionado no sensor, sem se mexer, e tente de novo. Nada foi salvo no histórico.</string>
+    <string name="reading_error_connection_lost">A conexão com o medidor foi perdida durante a leitura. Volte ao início, conecte de novo e repita a leitura. Nada foi salvo no histórico.</string>
+    <!-- Aviso ao familiar (Etapa 7): o app só prepara o texto, o usuário confirma o envio -->
+    <string name="family_alert_title">Avisar %1$s</string>
+    <string name="family_alert_body_email">Abre o seu app de e-mail com a mensagem pronta. Você confere o texto e confirma o envio; nada é enviado sozinho.</string>
+    <string name="family_alert_body_sms">Abre o seu app de mensagens com o texto pronto. Você confere o texto e confirma o envio; nada é enviado sozinho.</string>
+    <string name="family_alert_privacy">A mensagem inclui o horário e os valores de batimentos e oxigenação desta leitura.</string>
+    <string name="family_alert_action_email">Preparar e-mail</string>
+    <string name="family_alert_action_sms">Preparar mensagem</string>
+    <string name="family_alert_no_app_title">Nenhum app encontrado</string>
+    <string name="family_alert_no_app_email">Não há app de e-mail configurado neste celular. Copie a mensagem e envie por outro meio.</string>
+    <string name="family_alert_no_app_sms">Não há app de mensagens neste celular. Copie a mensagem e envie por outro meio.</string>
+    <string name="family_alert_copy">Copiar mensagem</string>
+    <string name="family_alert_copied">Mensagem copiada. Cole no app que preferir.</string>
+    <string name="family_alert_unknown_person">Uma pessoa que usa o My Heart</string>
+    <string name="family_alert_subject">My Heart: leitura fora do normal</string>
+    <string name="family_alert_email_body">Olá, %1$s.\n\n%2$s fez uma medição no aplicativo My Heart e o resultado ficou fora da faixa habitual.\n\nData e hora: %3$s\nBatimentos: %4$d bpm (%5$s)\nOxigenação: %6$d%% (%7$s)\n\nEste aviso não é um diagnóstico: o app usa limiares ilustrativos e não substitui avaliação profissional. Se possível, entre em contato.</string>
+    <string name="family_alert_sms_body">My Heart: %1$s fez uma medição fora do normal (%2$s). Batimentos: %3$d bpm (%4$s). Oxigenação: %5$d%% (%6$s). Não é diagnóstico. Se possível, entre em contato.</string>
+    <string name="family_alert_sample_note">\n\nAtenção: estes valores são de demonstração (exemplo ilustrativo), não de uma medição real.</string>
+</resources>
